@@ -1,6 +1,6 @@
 # elasticsearch-cluster-docker
 
-POC of a ES cluster, it runs three nodes based on [Elasticsearch Doker image](https://hub.docker.com/_/elasticsearch/)
+POC of a ES cluster, it runs three nodes based on [Elasticsearch Docker image](https://hub.docker.com/_/elasticsearch/)
 
 # Run
 
