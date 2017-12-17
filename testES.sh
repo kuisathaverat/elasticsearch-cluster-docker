@@ -1,3 +1,4 @@
+#!/bin/sh
 #create index
 curl -XPUT '192.168.99.100:9200/customer?pretty&pretty'
 curl -XGET '192.168.99.100:9200/_cat/indices?v&pretty'
