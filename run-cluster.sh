@@ -9,6 +9,11 @@ NODE02=172.18.0.11
 NODE03=172.18.0.12
 NODE_NGINX=172.18.0.13
 
+mkdir -p ${PWD}/data/node01
+mkdir -p ${PWD}/data/node02
+mkdir -p ${PWD}/data/node03
+mkdir -p ${PWD}/nginx/log
+
 docker stop ESNode01 ESNode02 ESNode03 ESNginx
 docker rm ESNode01 ESNode02 ESNode03 ESNginx
 
